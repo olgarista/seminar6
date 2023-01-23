@@ -39,3 +39,13 @@ print('Отфильтрованный список:', out_filter)
 participants = ['John', 'Tom', 'Jack']
 data = list(enumerate(participants))
 print(data)
+
+# Объединение имен и номеров сотрудников.
+
+employee_numbers = [2, 9, 18, 28]
+employee_names = ["Дима", "Марина", "Андрей", "Никита"]
+
+zipped_values = zip(employee_names, employee_numbers)
+zipped_list = list(zipped_values)
+
+print(zipped_list)
