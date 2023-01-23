@@ -34,3 +34,8 @@ out_filter += list(filter(filter_duplicate, list2))
 
 print('Отфильтрованный список:', out_filter)
 
+# Создание нового списка участников с кортежами из индекса и имен участников.
+
+participants = ['John', 'Tom', 'Jack']
+data = list(enumerate(participants))
+print(data)
